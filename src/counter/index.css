@@ -1,0 +1,35 @@
+.count{
+  font-size: 50px;  
+  font-style: italic;
+  color: aqua;
+ 
+  
+}
+.btn-btns{
+    text-align: center;
+    padding: auto;
+    font-style: normal;
+    border: 5px solid rgb(231, 222, 222);
+    border-radius: 50px;
+    width: auto;
+    background-color: rgb(242, 233, 222);
+
+    color: aquamarine;
+}
+.btn-btn{
+    font-size: 50px;
+    color: aqua;
+}
+.btns button{
+    margin-bottom: 10px;
+   padding: 20px;
+   color: rgb(72, 205, 161);
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.btns button:hover{
+    background-color: rgb(197, 248, 250);
+}
+

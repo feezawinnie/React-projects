@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import "./styles.css"
+
 import Count from "./counter/Count"
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Login from "./form/Login"
@@ -8,7 +8,7 @@ export default function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Count />}></Route>
+      <Route path="/" element={<Count/>}></Route>
       <Route path= "/login" element={<Login/>}></Route>
     </Routes>
     </BrowserRouter>
