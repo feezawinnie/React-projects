@@ -1,19 +1,19 @@
 import React from 'react'
 
 import "./toggleswitch.css"
-const Switch = () => {
+const toggleSwich = () => {
   const [isOn, setIsOn] = useState(false);
 
-  const toggleSwitch = ()=>{
+  const Switching = ()=>{
     setIsOn(!isOn);
   }
   
   return (
-    <div className= {`switch ${isOn ? "on" : "off"}`} onClick={toggleSwitch}>
+    <div className= {`Switch ${isOn ? "on" : "off"}`} onClick={Switching}>
       <div className='thumb'></div>
 
     </div>
   )
 }
 
-export default Switch;
+export default toggleSwich;
