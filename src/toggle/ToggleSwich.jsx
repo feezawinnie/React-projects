@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-import "./toggleswitch.css"
-const toggleSwich = () => {
+import "./ToggleSwich.css"
+const ToggleSwich = () => {
   const [isOn, setIsOn] = useState(false);
 
   const Switching = ()=>{
@@ -9,11 +9,13 @@ const toggleSwich = () => {
   }
   
   return (
+    <div style= {{backgroundColor:"grey", position:"relative", width: "fit-content", padding: "20px"}}>
     <div className= {`Switch ${isOn ? "on" : "off"}`} onClick={Switching}>
-      <div className='thumb'></div>
+      hey switch
 
+    </div>
     </div>
   )
 }
 
-export default toggleSwich;
+export default ToggleSwich;
