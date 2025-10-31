@@ -5,6 +5,7 @@ import {BrowserRouter,Routes,Route} from "react-router-dom"
 import ToggleSwich  from "./Toggle/ToggleSwich"
 import Form from "./form/form"
 import List from "./List/List"
+import Fetch from "./Fetch/Fetch"
 export default function App() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function App() {
       <Route path= "/switch" element={<ToggleSwich/>}></Route>
       <Route path="/Live"element={<Form/>}></Route>
       <Route path="/list" element={<List/>}></Route>
+      <Route path="/fetch" element={<Fetch/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
