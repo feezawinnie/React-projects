@@ -6,6 +6,7 @@ import ToggleSwich  from "./Toggle/ToggleSwich"
 import Form from "./form/form"
 import List from "./List/List"
 import Fetch from "./Fetch/Fetch"
+import Calculator from "./Calculator/Calculator"
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/Live"element={<Form/>}></Route>
       <Route path="/list" element={<List/>}></Route>
       <Route path="/fetch" element={<Fetch/>}></Route>
+      <Route path="calculator" element= {<Calculator/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
